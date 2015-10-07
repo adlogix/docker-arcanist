@@ -4,4 +4,8 @@ Docker container to install and run arcanist
 
 ## Installation / Usage
 
-TODO
+1. Install the adlogix/arcanist container:
+
+```sh
+$ docker pull adlogix/arcanist
+```
