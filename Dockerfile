@@ -2,7 +2,9 @@ FROM php:5.6-cli
 
 RUN \
     apt-get update && \
-    apt-get install git -y
+    apt-get install -y \
+        git \
+        vim
 
 RUN \
     git clone https://github.com/phacility/libphutil.git /opt/libphutil && \
